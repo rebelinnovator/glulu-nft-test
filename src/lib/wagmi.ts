@@ -10,6 +10,7 @@ import {
   braveWallet,
   coin98Wallet,
   safeWallet,
+  rainbowWallet,
 } from '@rainbow-me/rainbowkit/wallets';
 
 export const config = getDefaultConfig({
@@ -18,20 +19,21 @@ export const config = getDefaultConfig({
   chains: [bsc],
   wallets: [
     {
-      groupName: 'Recommended',
+      groupName: 'Popular',
       wallets: [
+        rainbowWallet,
         metaMaskWallet,
-        trustWallet,
-        binanceWallet,
+        walletConnectWallet,
         coinbaseWallet,
-        braveWallet,
-        coin98Wallet,
       ],
     },
     {
       groupName: 'Other',
       wallets: [
-        walletConnectWallet,
+        trustWallet,
+        binanceWallet,
+        braveWallet,
+        coin98Wallet,
         injectedWallet,
         safeWallet,
       ],
