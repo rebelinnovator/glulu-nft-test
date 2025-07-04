@@ -82,7 +82,7 @@ const Header = () => {
             </button>
             <h2 className="text-lg font-bold mb-2 text-red-600">Mobile Wallet Connection Issue</h2>
             <p className="mb-3 text-sm text-gray-700">
-              It looks like you're using Safari on iOS. For the best wallet connection experience, please open this site inside your wallet app's built-in browser (e.g., Rainbow, MetaMask, Trust Wallet).
+              It looks like you&apos;re using Safari on iOS. For the best wallet connection experience, please open this site inside your wallet app&apos;s built-in browser (e.g., Rainbow, MetaMask, Trust Wallet).
             </p>
             <ul className="mb-3 text-left text-xs text-gray-600 list-disc list-inside">
               <li>Open your wallet app (Rainbow, MetaMask, etc.)</li>
